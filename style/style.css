@@ -27,9 +27,9 @@ div .hvr-grow {
 	margin-bottom: 4%;
 	display: inline-block;
 	margin-left: 2%;
-	margin-right: 2%;
-	width: 160px;
-	padding-right: 1%;
+	margin-right: 1%;
+	width: 140px;
+	text-align: center;
 }
 
 form {
@@ -50,13 +50,14 @@ input {
 
 h1 {
 	font-family: var(--font);
+	font-style: italic;
 	color: var(--titlecolor);
 	font-size: 1rem;
-	text-align: left;
-	padding-left: 40px;
+	text-align: center;
 }
 
 ul {
+	padding-inline-start: 0;
 	list-style: none;
 }
 
